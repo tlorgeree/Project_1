@@ -4,8 +4,7 @@ public class Doctor extends Person{
     public String specialty;
 
     public Doctor(String _name, int _age, String _specialty){
-        super.name =_name;
-        super.age = _age;
+        super(_name,_age);
         this.specialty = _specialty;
     }
 

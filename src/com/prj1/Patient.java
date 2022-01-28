@@ -6,10 +6,10 @@ public class Patient extends Person{
     public String doctor;
 
     public Patient(String _name, int _age, String _doctor){
-        super.name =_name;
-        super.age = _age;
+        super(_name,_age);
         this.doctor = _doctor;
     }
+
 
     public String toString(){
         return "Patient name: " + name +
