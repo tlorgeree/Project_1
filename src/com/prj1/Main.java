@@ -1,7 +1,12 @@
 package com.prj1;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Test string");
+       ArrayList<Patient> patient_list;
+       ArrayList<Doctor> doctor_list;
+
+
     }
 }
