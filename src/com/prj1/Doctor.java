@@ -9,8 +9,8 @@ public class Doctor extends Person{
     }
 
     public String toString(){
-        return "Patient name: " + name +
-                "\nPatient age: " + age +
-                "\nPatient's Doctor: " + specialty;
+        return "Doctor's name: " + name +
+                "\nDoctor's age: " + age +
+                "\nDoctor's Specialty: " + specialty;
     }
 }
